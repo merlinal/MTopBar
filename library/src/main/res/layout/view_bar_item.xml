@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.merlin.bar.item.MBarItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_bar_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:minHeight="32dp"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <ImageView
+        android:id="@+id/bar_item_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="32dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/bar_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="32dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+</com.merlin.bar.item.MBarItemView>

@@ -1,0 +1,33 @@
+<resources>
+
+    <!--底部弹出dialog-->
+    <style name="anim_from_bottom" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/in_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/out_to_bottom</item>
+    </style>
+
+    <style name="anim_alpha" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/show_alpha</item>
+        <item name="@android:windowExitAnimation">@anim/hide_alpha</item>
+    </style>
+
+    <style name="dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+
+    <style name="topBar" parent="android:Widget.ActionBar">
+        <!--<item name="android:background">?attr/colorPrimary</item>-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+
+    <style name="topBar_menu_more" parent="topBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

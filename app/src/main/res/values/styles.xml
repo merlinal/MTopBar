@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item> <!--窗体无标题栏-->
+        <item name="windowActionBar">false</item> <!--无actionbar-->
+        <item name="android:windowFullscreen">false</item> <!--取消状态栏,也就是全屏显示-->
+        <item name="android:windowBackground">@android:color/white</item> <!--窗体的背景色-->
+        <item name="android:textColorPrimary">@android:color/white</item> <!--标题栏字体颜色-->
+        <item name="android:colorPrimary">@color/theme</item> <!--标题栏-->
+        <item name="android:colorPrimaryDark">@color/theme</item> <!--状态栏-->
+        <item name="android:colorAccent">@color/theme</item> <!--系统中，子空间，复选框，单选按钮，选中时的颜色-->
+        <item name="android:navigationBarColor">@color/theme</item> <!--底部导航条背景颜色-->
+        <!--<item name="android:colorControlHighlight">#00cd00</item> &lt;!&ndash;波纹颜色&ndash;&gt;-->
+        <!--兼容-->
+        <!--<item name="colorControlHighlight">#00cd00</item> &lt;!&ndash;波纹颜色&ndash;&gt;-->
+        <item name="colorPrimary">@color/theme</item> <!--标题栏-->
+        <item name="colorPrimaryDark">@color/theme</item> <!--状态栏-->
+        <item name="colorAccent">@color/theme</item> <!--系统中，子空间，复选框，单选按钮，选中时的颜色-->
+    </style>
+
+</resources>
